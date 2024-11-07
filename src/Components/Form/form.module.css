@@ -1,0 +1,60 @@
+.contenedor{
+    height: 31rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.contenedor h1{
+
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    margin: 3rem 1rem 0 0;
+    padding: 1rem;
+    background-color: black;
+    color: aqua;
+    order: 3;
+
+}
+
+.cheBox{
+    display: flex;
+    flex-wrap: wrap;
+    width: 35rem;
+    height: 26.5rem;
+    flex-direction: column;
+    margin: 4rem 1rem 0 0;
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.736);
+    color: aqua;
+    order: 2;
+
+}
+
+.boton {
+    animation-name: boton;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    color: black;
+  }
+  
+  @keyframes boton {
+      0% {transform: translateY(0);}
+      50% {transform: translateY(-10px);}
+      100% {transform: translateY(0);}
+  }
+
+.error{
+    color: red;
+    font-size: medium;
+    background-color: rgba(0, 0, 0, 0.817);
+    display: flex;
+    flex-direction: column;
+    padding: 0.7rem;
+}

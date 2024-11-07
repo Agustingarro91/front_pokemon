@@ -1,0 +1,39 @@
+.bton{
+    transition: .5s, color .10s;
+        -webkit-transition: .5s, color .10s;
+        -moz-transition: .5s, color .10s;
+        background-color: blueviolet;
+        color: black;
+        margin: 0.2rem;
+}
+.bton:hover{
+    transform: scale3d(1.5, 1.5, 0.3);
+        -webkit-transform: scale3d(1.5, 1.5, 0.3);
+        -moz-transform: scale3d(1.5, 1.5, 0.3);
+}
+
+.contenedor{
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+
+
+.link{
+    text-decoration: none;
+}
+
+.error{
+    color: red;
+}

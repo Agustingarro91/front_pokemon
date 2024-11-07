@@ -1,0 +1,31 @@
+.contenedor{
+    background-color: yellow;
+    width: 100%;
+    height: 39em;
+    display: flex;
+    align-items: flex-start;
+    justify-content:right;
+    background-image: url('../../../../pokemon.png');
+    background-repeat: no-repeat;
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+    font-size: 10rem;
+    font-family:fantasy;
+}
+
+.ingresar {
+    animation-name: ingresar;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes ingresar {
+    0% {opacity: 1;}
+    25% {opacity: 0.5;}
+    50% {opacity: 1;}
+    75% {opacity: 0.5;}
+    100% {opacity: 1;}
+  }

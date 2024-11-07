@@ -1,0 +1,48 @@
+
+.contenedor{
+    background-color: yellowgreen;
+    color: black;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+
+}
+
+.home{
+    height: 32.2rem;
+}
+
+.link{
+    text-decoration: none;
+}
+
+.buscadores{
+    height: 5rem;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.buscadores span{
+    color: aliceblue;
+}
+
+              
+.btn{
+    transition: .5s, color .10s;
+    -webkit-transition: .5s, color .10s;
+    -moz-transition: .5s, color .10s;
+    background-color: rgb(200, 9, 9);
+    height: 2rem;
+    width: 10rem;
+}
+.btn:hover{
+    box-shadow: 0 8px 8px 0 #bebbbc,0 8px 8px 0 #adadab;
+    transform: translate(0px,5px);
+    -webkit-transform: translate(0px,5px);
+    -moz-transform:translate(0px,5px);
+}
+              
